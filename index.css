@@ -1,0 +1,162 @@
+body  {
+    background-image: linear-gradient(#46cbaa, #e800b8);
+}
+
+h1:not(.diff) {
+    position:relative;
+    left:510px;
+    bottom:80px;
+    font-family: Arial, Helvetica, serif;
+    display:inline-block;
+    border-bottom: 3px solid;
+    border-right:3px solid;
+    border-left:3px solid;
+    box-shadow: 5px 10px #888888;
+    padding:10px;
+}
+
+.symbol1, .symbol2{
+    width: 200px;
+    height: 200px;
+}
+
+.symbol2 {
+    position:relative;
+    left:1100px;
+}
+
+div.introduction {
+    border-style: solid;
+    height: 750px;
+    position:relative;
+    top:100px;
+    background-color: cyan;
+}
+
+.insidePicture1 {
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+    
+}
+
+.matchWithPicture {
+    position:relative;
+    left: 150px;
+    font-size:24px;
+    width:90%;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right:10px;
+    line-height: 40px;
+    bottom:25px;
+}
+
+
+
+.insidePicture2 {
+    width: 400px;
+    height: 300px;
+    float:right;
+    position: relative;
+    bottom:65px;
+    z-index:0;
+}
+
+.secondTextIntro {
+   text-align: left;
+    position:relative;
+    bottom:60px;
+}
+
+.Events {
+    font-size:200%;
+    position:relative;
+    left:38%;
+    margin-top:200px;
+    border-style: solid;
+    width:400px;
+    background-color:silver;
+}
+
+.Events a{
+    color:purple;
+}
+
+.Newsfeed {
+    font-size:200%;
+}
+
+.Newsfeed > dl > dt {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.theTable {
+    position:relative;
+    left:38%;
+}
+
+thead > tr > th {
+    border-bottom-style: solid;
+}
+
+th, td {
+    padding-right:20px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    background-color: silver;
+}
+
+.firstCap > figcaption{
+    z-index: 1;
+    font-size: 66%;
+    position: relative;
+    bottom:460px;
+    left:7px;
+    color:white;
+    width:300px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.secondCap > figcaption {
+    z-index:1;
+    position:relative;
+    left:76%;
+    font-size: 70%;
+    bottom:50px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstTextIntro {
+    display:inline-block;
+}
+
+.unordered > li > div {
+    font-size: 30px;
+    margin:20px;
+}
+
+.unordered > li > div.first {
+    text-decoration: underline;
+    color:blue;
+}
+
+.unordered > li > div.third {
+    text-decoration: underline;
+    color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
