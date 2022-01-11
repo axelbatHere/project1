@@ -13,11 +13,13 @@ h1:not(.diff) {
     border-left:3px solid;
     box-shadow: 5px 10px #888888;
     padding:10px;
+    background-image:radial-gradient( #c6d944, #46cbaa, #c6d944);
 }
 
 .symbol1, .symbol2{
     width: 200px;
     height: 200px;
+    
 }
 
 .symbol2 {
@@ -25,31 +27,39 @@ h1:not(.diff) {
     left:1100px;
 }
 
+
 div.introduction {
     border-style: solid;
     height: 750px;
     position:relative;
     top:100px;
+    left:10%;
     background-color: cyan;
+    overflow:hidden;
+    border-radius: 20px;
+    width: 80%;
+    background-image: linear-gradient( #e800b8, #46cbaa);
+    box-shadow: 5px 5px black;
 }
 
 .insidePicture1 {
     width: 300px;
     height: 300px;
     z-index: -1;
+    overflow:hidden;
     
 }
 
 .matchWithPicture {
     position:relative;
-    left: 150px;
+    left: 2%;
     font-size:24px;
     width:90%;
     text-align: justify;
     padding-left: 10px;
     padding-right:10px;
     line-height: 40px;
-    bottom:25px;
+    bottom:20px;
 }
 
 
@@ -61,12 +71,14 @@ div.introduction {
     position: relative;
     bottom:65px;
     z-index:0;
+    overflow:hidden;
 }
 
 .secondTextIntro {
    text-align: left;
     position:relative;
     bottom:60px;
+    
 }
 
 .Events {
@@ -76,11 +88,18 @@ div.introduction {
     margin-top:200px;
     border-style: solid;
     width:400px;
-    background-color:silver;
+    background-color:darkcyan;
+    padding-left:20px;
+}
+
+.Events > h2 {
+    color:yellowgreen;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    box-shadow: 3px 3px black;
 }
 
 .Events a{
-    color:purple;
+    color:yellow;
 }
 
 .Newsfeed {
@@ -105,34 +124,54 @@ th, td {
     padding-right:20px;
     border-right-style: solid;
     border-bottom-style: solid;
-    background-color: silver;
+    text-align:center;
+    box-shadow: -1px 1px black, 1px 1px black, -1px -1px black;
+}
+
+table > tbody > tr > th {
+    background-color:lemonchiffon;
+}
+
+
+
+table > thead > tr {
+    background-color:lemonchiffon;
+}
+
+table > tbody > tr > td {
+    background-color: whitesmoke;
 }
 
 .firstCap > figcaption{
     z-index: 1;
-    font-size: 66%;
+    font-size: 73%;
     position: relative;
-    bottom:460px;
+    bottom:500px;
     left:7px;
-    color:white;
+    color:yellow;
     width:300px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-style:italic;
+    overflow:hidden;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .secondCap > figcaption {
     z-index:1;
     position:relative;
-    left:76%;
-    font-size: 70%;
-    bottom:50px;
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
+    left:70%;
+    font-size: 75%;
+    bottom:85px;
+    color:yellow;
+    font-style: italic;
+    
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.firstTextIntro {
+.firstTextIntro:not(img) > p {
     display:inline-block;
+    
 }
+
 
 .unordered > li > div {
     font-size: 30px;
@@ -141,13 +180,34 @@ th, td {
 
 .unordered > li > div.first {
     text-decoration: underline;
-    color:blue;
+    color:darkred;
+    font-weight:bolder;
 }
 
 .unordered > li > div.third {
     text-decoration: underline;
-    color:blue;
+    font-weight:bolder;
 }
+
+.unordered > li {
+    font-weight: bold;
+}
+
+
+ul#secondOne > li{
+    display:inline;
+    margin:30px;
+    font-size: 40px;
+    position:relative;
+    left:24%;
+    color:yellowgreen;
+    text-decoration: underline;
+    
+}
+
+
+
+
 
 
 
